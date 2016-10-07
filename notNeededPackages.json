@@ -16,6 +16,12 @@
             "typingsPackageName": "ng-table",
             "sourceRepoURL": "https://github.com/esvit/ng-table",
             "asOfVersion": "2.0.1"
+        },
+        {
+            "libraryName": "Linq.JS",
+            "typingsPackageName": "linq",
+            "sourceRepoURL": "https://linqjs.codeplex.com/",
+            "asOfVersion": "2.2.33"
         }
     ]
 }
