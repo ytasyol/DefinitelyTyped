@@ -16,6 +16,12 @@
             "typingsPackageName": "ng-table",
             "sourceRepoURL": "https://github.com/esvit/ng-table",
             "asOfVersion": "2.0.1"
+        },
+        {
+            "libraryName": "LinqSharp",
+            "typingsPackageName": "linqsharp",
+            "sourceRepoURL": "https://github.com/brunolm/LinqSharp",
+            "asOfVersion": "1.0.0"
         }
     ]
 }
