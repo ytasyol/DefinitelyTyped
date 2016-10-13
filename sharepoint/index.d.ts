@@ -2912,6 +2912,7 @@ declare namespace SP {
         set_group(value: string): void;
         get_name(): string;
         set_name(value: string): void;
+        set_id(value: string): void;
         get_parentContentType(): SP.ContentType;
         set_parentContentType(value: SP.ContentType): void;
         get_typeId(): string;
@@ -8728,7 +8729,7 @@ declare namespace SP {
 
         export class DesignPackage {
             static install(context: ClientContext, site: Site, info: DesignPackageInfo, path: string): void;
-            static uninstall(context: ClientContext, site: Site, info: DesignPackageInfo): void;
+            static unInstall(context: ClientContext, site: Site, info: DesignPackageInfo): void;
             static apply(context: ClientContext, site: Site, info: DesignPackageInfo): void;
             static exportEnterprise(context: ClientContext, site: Site, includeSearchConfiguration: boolean): ClientResult<DesignPackageInfo>;
             static exportSmallBusiness(context: ClientContext, site: Site, packageName: string, includeSearchConfiguration: boolean): ClientResult<DesignPackageInfo>;
